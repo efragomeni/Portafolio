@@ -9,42 +9,42 @@
   {
     "nombre": "Fruta & Fruto",
     "descripcion": "Sitio web creado durante el curso de Oracle-Alura, enfocado en la correcta organización y arquitectura de archivos CSS para un desarrollo escalable y ordenado.",
-    "imagen": "../../../public/imagenes_proyectos/FrutaYFruto.png",
+    "imagen": "/imagenes_proyectos/FrutaYFruto.png",
     "github": "https://github.com/efragomeni/Fruta-Fruto",
     "demo": "https://efragomeni.github.io/Fruta-Fruto/"
   },
   {
     "nombre": "Guardian App",
     "descripcion": "Una de las aplicaciones más desafiantes que desarrollé: una app móvil completa y funcional creada para la materia de Desarrollo Mobile en el terciario. Está orientada a refugios y proteccionistas de animales, ofreciendo una base centralizada para registrar y consultar malos adoptantes. En el enlace de demo se puede acceder al research del proyecto y descargar la APK.",
-    "imagen": "../../../public/imagenes_proyectos/GuardianApp.png",
+    "imagen": "/imagenes_proyectos/GuardianApp.png",
     "github": "https://github.com/efragomeni/GuardianApp_Vsc",
     "demo": "https://drive.google.com/drive/folders/1x7oZtVSeIMJYalWsSzz1ouLsYjTgdffU?usp=drive_link"
   },
   {
     "nombre": "Administracion April- Gastos",
     "descripcion": "Web desarrollada para la administración de consorcios April. Permite cargar los gastos mensuales y contratos de cada edificio. Al modificar el final de la URL, se puede acceder a los datos de distintos edificios (por ejemplo: Ardoino168). Fue una solución simple y funcional que evitó el uso de base de datos, gestionando todo directamente desde el front-end.",
-    "imagen": "../../../public/imagenes_proyectos/GastosAdministracion.png",
+    "imagen": "/imagenes_proyectos/GastosAdministracion.png",
     "github": "https://github.com/efragomeni/ClinicaSePrice",
     "demo": "https://administracionapril.netlify.app/Donizetti471"
   },
   {
     "nombre": "Clinica SePrice",
     "descripcion": "Landing page creada para la materia de Aproximación al Campo Laboral en la Tecnicatura en Desarrollo de Software. Enfocada en diseño claro y estructura profesional.",
-    "imagen": "../../../public/imagenes_proyectos/ClinicaSePrice.png",
+    "imagen": "/imagenes_proyectos/ClinicaSePrice.png",
     "github": "https://github.com/efragomeni/ClinicaSePrice",
     "demo": "https://efragomeni.github.io/ClinicaSePrice/"
   },
   {
     "nombre": "Hasam3D",
     "descripcion": "Es una web simple realizada con Next.js y en un futuro se planea añadirle una base datos para tener un mejor control de los articulos cargados. Por el momento se pueden ver los articulos a la venta, armar un carrito y una vez terminado de seleccionar los items requeridos se procede a hacer el pedido por whatsapp enviando el detalle de todo lo seleccionado y el monto final.",
-    "imagen": "../../../public/imagenes_proyectos/Hasam3D.png",
+    "imagen": "/imagenes_proyectos/Hasam3D.png",
     "github": "https://github.com/efragomeni/CatalogoHasam",
     "demo": "https://hasam3d.vercel.app/minorista"
   },
   {
     "nombre": "Foro",
     "descripcion": "Proyecto en desarrollo orientado al aprendizaje del manejo de bases de datos. Implementa funcionalidades básicas de un foro: registro de usuarios, carga de comentarios y estructura dinámica de temas.",
-    "imagen": "../../../public/imagenes_proyectos/Foro.png",
+    "imagen": "/imagenes_proyectos/Foro.png",
     "github": "https://github.com/efragomeni/ForoPrueba",
     "demo": "https://drive.google.com/drive/folders/1x7oZtVSeIMJYalWsSzz1ouLsYjTgdffU?usp=drive_link"
   }
