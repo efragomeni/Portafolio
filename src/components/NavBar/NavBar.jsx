@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import WhatsAppLogo from "../../../public/icons/WA.svg";
+
 import "./navBar.css";
 import { Hamburger } from "../Hamburger/Hamburger";
 
@@ -60,7 +62,7 @@ export const NavBar = () => {
             class="contacto-whatsapp"
           >
             ¿Hablamos?
-            <img src="../../../public/icons/WA.svg " alt="WhatsApp" />
+            <img src={WhatsAppLogo} alt="WhatsApp" />
           </a>
         </li>
       </ul>

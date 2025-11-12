@@ -2,7 +2,7 @@
   {
     "nombre": "Encriptador",
     "descripcion": "Proyecto realizado para el curso de Oracle-Alura. Permite encriptar y desencriptar mensajes de texto. El diseño se basó en el desafío original, adaptándolo con Flexbox para lograr un estilo limpio y completamente responsivo.",
-    "imagen": "../../../public/imagenes_proyectos/encriptador.jpg",
+    "imagen": "/imagenes_proyectos/encriptador.jpg",
     "github": "https://github.com/efragomeni/Encriptador",
     "demo": "https://efragomeni.github.io/Encriptador_2.0/"
   },
