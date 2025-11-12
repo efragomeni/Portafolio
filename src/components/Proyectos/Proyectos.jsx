@@ -1,5 +1,6 @@
 import "./proyectos.css";
 import data from "../../assets/projects-data.json";
+import arrow from "../../assets/img/arrow.svg";
 
 export const Proyectos = () => {
   let proyectos = data;
@@ -14,10 +15,10 @@ export const Proyectos = () => {
         <h3>{proyecto.nombre}</h3>
         <p>{proyecto.descripcion}</p>
         <a href={proyecto.github} target="_blank">
-          Github <img src="./src/assets/img/arrow.svg" alt="" />
+          Github <img src={arrow} alt="" />
         </a>
         <a href={proyecto.demo} target="_blank">
-          Ver demo <img src="./src/assets/img/arrow.svg" alt="" />
+          Ver demo <img src={arrow} alt="" />
         </a>
       </div>
       <div className="contenedor-proyectos-individual-img">
