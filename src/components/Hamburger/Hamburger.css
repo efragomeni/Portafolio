@@ -1,0 +1,36 @@
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger svg {
+  width: 30px;
+  height: 30px;
+}
+
+/* Líneas del menu */
+.line {
+  stroke: #793356;
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: all 0.4s ease;
+  transform-origin: 50% 50%; /* centro de la línea */
+}
+
+/* Estado abierto → animación a X */
+.hamburger.open .top {
+  transform: rotate(45deg) translateY(20%);
+}
+
+.hamburger.open .middle {
+  opacity: 0;
+}
+
+.hamburger.open .bottom {
+  transform: rotate(-45deg) translateY(-20%);
+}

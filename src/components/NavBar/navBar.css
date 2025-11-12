@@ -1,0 +1,150 @@
+.navBar {
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: linear-gradient(to bottom, rgba(250, 235, 215, 0.551), var(--color-fondo)); */
+  /* background: linear-gradient(
+    to bottom,
+    var(--acentos-traslucido),
+    var(--color-fondo)
+    ); */
+
+  /* primero el color base sólido */
+  background-color: var(--color-fondo);
+
+  /* luego el degradado encima */
+  background-image: linear-gradient(
+    to bottom,
+    var(--acentos-traslucido),
+    var(--color-fondo)
+  );
+
+  z-index: 1000;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+/* cuando está visible */
+.navBar.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* cuando se oculta al scrollear hacia abajo */
+.navBar.oculta {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.navBar img {
+  width: 60px;
+}
+
+.navBar div {
+  display: flex;
+  align-items: center;
+  flex: 0.3;
+}
+.navBar p {
+  font-weight: bold;
+}
+
+.menu-principal {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navBar a {
+  /* border: 1px solid red; */
+  position: relative;
+  text-decoration: none;
+  color: var(--texto);
+  font-weight: lighter;
+  /* font-weight:400 ; */
+
+  transition: color 0.3s ease;
+}
+
+.navBar a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: var(--acentos);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navBar a:hover {
+  color: var(--acentos);
+  font-weight: 300;
+}
+
+.navBar a:hover::after {
+  width: 100%;
+}
+
+.navBar .hamburger {
+  display: none;
+}
+
+.contacto-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-texto);
+  transition: transform 0.2s ease;
+}
+
+.contacto-whatsapp img {
+  width: 30px;
+}
+/* estilos para tablets y móviles */
+@media (max-width: 768px) {
+  .navBar {
+    padding: 1rem;
+    justify-content: space-between;
+    /* width: 99%; */
+  }
+  .navBar ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 92px;
+    right: 0;
+    width: 100%;
+    background: var(--color-fondo);
+    padding: 1rem 0;
+    gap: 1.5rem;
+    z-index: 1000;
+  }
+  .navBar .hamburger {
+    display: inline-flex;
+  }
+
+  .menu-principal.abierto {
+    display: flex;
+  }
+  .menu-principal.abierto li {
+    border-bottom: 1px solid var(--acentos-traslucido);
+    width: 100%;
+    text-align: center;
+  }
+  .contacto-whatsapp {
+    justify-content: center;
+  }
+}
+
+/* estilos específicos para móviles chicos */
+@media (max-width: 480px) {
+}

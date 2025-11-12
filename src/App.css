@@ -1,0 +1,48 @@
+/* Reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Paleta de colores */
+:root {
+  --color-fondo: #f4f4f4;
+  --texto: #080808;
+  --acentos: #ff69b4;
+  --acentos-traslucido: #ff69b445;
+  --resaltar-texto1:#4a8fe7;
+  --resaltar-texto2:#73bed9;
+  --resaltar-texto3:#43bec0;
+  --resaltar-texto4:#73fbd3;
+
+  /* Paleta: https://coolors.co/73fbd3-43bec0-73bed9-4a8fe7-ff69b4 */
+}
+
+/* Body */
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--texto);
+  margin: 0;
+  
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 92px;
+
+}
+
+/* Estilo Listas */
+ul {
+  list-style: none;
+}
+
+/* Estilos anchor */
+a {
+  color: var(--texto);
+}
+
+section {
+  /* border: 1px solid red; */
+}

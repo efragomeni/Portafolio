@@ -1,0 +1,8 @@
+* hay que seguir con las skills, cambiarle la direcciones al flex en dispositivos mas chicos, agregar otras tecnologias y ver si me convencen los colores. LISTO ✔️
+* Despues hacer algo parecido a las cards pero con hobbies yo creo que suma ✔️
+* Resolver el tema del responsive de las cards hobbies y la altura. Para mi esta en el estilo de cards el problema principal... ✔️
+* Ya cree el componente proyectos, y le di diseño, me quedario subir algunas cosas que hice con los links a github..... 
+*Arreglar descripciones (Inspirate Erika!)
+
+
+* Tambien ver si me convencen los colores que me dan un algo raro....

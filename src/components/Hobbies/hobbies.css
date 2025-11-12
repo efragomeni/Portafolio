@@ -1,0 +1,54 @@
+.hobbies {
+  height: auto;
+}
+.contenedor-hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.contenedor-hobbies-cards {
+  /* height: 600px; */
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 25px auto; */
+  gap: 2rem;
+
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.hobbie {
+  box-shadow: 0 4px 10px var(--acentos);
+}
+
+/* estilos para tablets y móviles */
+@media (max-width: 768px) {
+  .contenedor-hobbies-cards {
+    flex-wrap: wrap;
+    /* margin: auto; */
+    height: fit-content;
+
+    width: 90%;
+    gap: 1.5rem;
+    /* gap: 2rem; */
+  }
+}
+
+@media (max-width: 579px) {
+  .hobbie {
+    transform: scale(0.9);
+  }
+  .contenedor-hobbies {
+    /* margin: auto; */
+    /* Lo resolvi de una manera muuy rustica pero ya tengo sueño y no se me ocurre que mas tocar.... tengo q ver si lo puedo hacer de otra forma q sea mas responsive sin medidas */
+    height: 500px;
+  }
+}
