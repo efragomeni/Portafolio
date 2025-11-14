@@ -2,7 +2,13 @@
 * Despues hacer algo parecido a las cards pero con hobbies yo creo que suma ✔️
 * Resolver el tema del responsive de las cards hobbies y la altura. Para mi esta en el estilo de cards el problema principal... ✔️
 * Ya cree el componente proyectos, y le di diseño, me quedario subir algunas cosas que hice con los links a github..... 
-*Arreglar descripciones (Inspirate Erika!)
+*Arreglar descripciones (Inspirate Erika!)✔️
 
 
-* Tambien ver si me convencen los colores que me dan un algo raro....
+* Tambien ver si me convencen los colores que me dan un algo raro....✔️
+
+*Arregla la distancia entre hobbies y formacion academica en mobile,
+
+*Formacion academica hace mas chicas las cards esas en mobile. 
+
+*En los proyectos ver lo de los fondos que dijo el profe, le voy a dar una chance. 

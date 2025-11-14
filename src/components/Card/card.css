@@ -51,10 +51,30 @@
   width: 50%;
 }
 
-
 /* estilos para tablets y móviles */
 @media (max-width: 768px) {
   .contenedor-hobbies-cards {
     height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+.contenedor-skills-cards .uno{
+  display: flex;
+  justify-content: space-around;
+}
+  .contenedor-card,
+  .card-frente,
+  .card-dorso {
+    width: 90px; /* tamaño más chico */
+    height: 90px;
+  }
+
+  .card-frente img {
+    width: 60%;
+  }
+
+  .contenedor-card h3 {
+    display: none; /* ocultar texto si molesta */
   }
 }

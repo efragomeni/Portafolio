@@ -22,7 +22,7 @@
 
 /* estilos para tablets y móviles */
 @media (max-width: 768px) {
-  .contenedor-skills-cards{
+  .contenedor-skills-cards {
     flex-wrap: wrap;
     gap: 4rem;
   }
@@ -30,7 +30,15 @@
 
 /* estilos específicos para móviles chicos */
 @media (max-width: 480px) {
-  /* .contenedor-skills-cards{
-    gap: 2rem;
-  } */
+  .contenedor-skills-cards {
+    /* border: 1px solid red; */
+    gap: 0rem;
+    justify-content: space-around;
+    height: 220px;
+    margin-bottom: -1rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
 }

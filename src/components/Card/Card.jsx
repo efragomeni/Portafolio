@@ -1,37 +1,3 @@
-// import { useState } from "react";
-// import "./card.css";
-
-// export const Card = ({ nombre, imagen, clase }) => {
-//   const [voltear, setVoltear] = useState(false);
-
-//   if (clase === "skill") {
-//     return (
-//       <div
-//         className={`contenedor-card skill ${voltear ? "voltear" : ""}`}
-//         onClick={() => setVoltear(!voltear)}
-//       >
-//         <div className={`contenedor-card skill ${!voltear ? "frente":""}`}>
-
-//           <img src={imagen} alt={nombre} />
-//           <h3>{nombre}</h3>
-//         </div>
-//         <div className={`contenedor-card skill ${voltear ? "dorso":""}`}>
-
-//           <img src={imagen} alt={nombre} />
-//           <h3>{nombre}</h3>
-//         </div>
-
-//       </div>
-//     );
-//   } else {
-//     return (
-//       <div className="contenedor-card">
-//         <img src={imagen} alt={nombre} />
-//         <h3>{nombre}</h3>
-//       </div>
-//     );
-//   }
-// };
 import { useState } from "react";
 import "./card.css";
 import { CirculoProgreso } from "../CirculoProgreso/CirculoProgreso";
@@ -43,6 +9,7 @@ export const Card = ({
   porcentaje,
   anioInicio,
   anioFin,
+  onClick,
 }) => {
   const [voltear, setVoltear] = useState(false);
 
@@ -82,7 +49,10 @@ export const Card = ({
   // Caso formacion
   if (clase === "formacionAcademica") {
     return (
-      <div className="contenedor-card formacionAcademica">
+      <div
+        className="contenedor-card formacionAcademica"
+        onClick={onClick || undefined}
+      >
         <img src={imagen} alt={nombre} />
         <h3>{nombre}</h3>
         <p>
