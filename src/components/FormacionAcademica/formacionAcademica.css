@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
   gap: 2rem;
   /* width: 90%; */
   max-width: 1200px;
@@ -90,4 +90,14 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@media (max-width: 579px) {
+.contenedor-card.formacionAcademica {
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+.contenedor-formacion{
+  margin-bottom: 1rem;
+}
 }
